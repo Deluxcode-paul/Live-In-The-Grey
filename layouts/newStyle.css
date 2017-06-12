@@ -1,0 +1,116 @@
+/* My styles
+==================================== */
+*:focus {
+    outline: 0;
+}
+
+
+.photo-text .slick-dots {
+    bottom: -90px;
+}
+
+@media screen and (max-width: 1091px) {
+	.photo-text .slick-dots {
+	    bottom: -60px;
+	}
+}
+
+.photo-text .slick-dots li button:before {
+    font-size: 20px;
+}
+
+
+select.list {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ff7357;
+    padding: 0 18px;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 27px;
+    background-color: #fff;
+    font-size: .875rem;
+    font-family: 'Gotham Pro';
+    text-transform: uppercase;
+    line-height: 40px;
+    color: #ff7357;
+}
+
+select.list option:checked,
+select.list option:hover,
+option:checked:hover, select:focus option:checked:hover {
+    background: #ff7357;
+    color: #fff;
+}
+
+.select-wrapper {
+	position: relative;
+}
+
+.select-wrapper+.select-wrapper {
+	padding-top: 25px;
+}
+.select-wrapper+.select-wrapper:after {
+	top: 25px;
+}
+.select-wrapper:after {
+    content: '';
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background-image: url(../img/arr_down.png);
+    background-color: #fff;
+    background-position: center;
+    background-size: 23px;
+    background-repeat: no-repeat;
+    border: 1px solid #ff7357;
+    right: 0;
+    top: 0;
+}
+
+.select-wrapper:hover {
+	cursor: pointer;
+}
+
+.form-block form .actions {
+    margin-top: 146px;
+}
+
+.form-block form .actions .checkbox-container {
+    overflow: visible;
+}
+
+.form-block form .actions .send-btn {
+    margin-top: -32px;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;
+}
+
+
+
+div.wpcf7-validation-errors {
+    border: 2px solid #f10800;
+    margin: 0;
+}
+
+div.wpcf7-mail-sent-ok {
+    border: 2px solid #398f14;
+    margin: 0;
+}
+
+.form-block div.wpcf7-validation-errors {
+    padding: 120px;
+    margin: -40px;
+}
+ div.wpcf7-mail-sent-ok {
+    padding: 120px;
+    margin: -40px;
+}
+
+
+footer p a:focus {
+    color: #ff7357;
+}
